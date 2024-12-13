@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #220707, #440D0F);
+    color: #111827;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #D5ACA9;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: #374151;
+}
+
+p {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+    color: #4b5563;
+}
+button {
+    background: #3b82f6;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background: #B0D0D3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+button:active {
+    background: #1d4ed8;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    transform: translateY(1px);
+}
+
+#reset {
+    background: #8FD5A6;
+    color: white;
+    font-size: 1rem;
+    padding: 10px 20px;
+}
+
+#reset:hover {
+    background: #dc2626;
+}
+
+div {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+#user-choice, #computer-choice, #result {
+    font-weight: 500;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background: #ffffff;
+    color: #1f2937;
+    display: inline-block;
+    margin: 5px 0;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+#wins, #losses, #draws {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background: #f9fafb;
+    color: #1f2937;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+#wins {
+    border-color: #fff;
+    color: #000000;
+}
+
+#losses {
+    border-color: #fff;
+    color: #000000;
+}
+
+#draws {
+    border-color: #fff;
+    color: #000000;
+}
